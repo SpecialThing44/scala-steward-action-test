@@ -27,7 +27,7 @@ version := "1.0"
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0"
 libraryDependencies += "com.google.inject" % "guice" % "5.0.0"
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.1.11"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.19"
 libraryDependencies += "org.typelevel" %% "cats-core" % "2.10.0"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
