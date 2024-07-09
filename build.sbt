@@ -26,8 +26,12 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0"
-libraryDependencies += "com.google.inject" % "guice" % "5.0.0"
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.1.11"
+libraryDependencies += "com.google.inject" % "guice" % "6.0.0"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.19"
+libraryDependencies += "org.playframework" %% "play" % "3.0.4"
+libraryDependencies += "org.sangria-graphql" %% "sangria-ast"  % "4.1.0"
+libraryDependencies += "org.sangria-graphql" %% "sangria-core" % "4.1.0"
+libraryDependencies += "dev.zio" %% "zio"  % "2.0.22"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
