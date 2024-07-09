@@ -26,7 +26,7 @@ version := "1.0"
 // You can define other libraries as dependencies in your build like this:
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0"
-libraryDependencies += "com.google.inject" % "guice" % "6.0.0"
+libraryDependencies += "com.google.inject" % "guice" % "7.0.0"
 libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.19"
 libraryDependencies += "org.playframework" %% "play" % "3.0.4"
 libraryDependencies += "org.sangria-graphql" %% "sangria-ast"  % "4.1.0"
