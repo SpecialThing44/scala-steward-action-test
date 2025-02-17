@@ -31,7 +31,7 @@ libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.19"
 libraryDependencies += "org.playframework" %% "play" % "3.0.4"
 libraryDependencies += "org.sangria-graphql" %% "sangria-ast"  % "4.1.0"
 libraryDependencies += "org.sangria-graphql" %% "sangria-core" % "4.1.0"
-libraryDependencies += "dev.zio" %% "zio"  % "2.0.22"
+libraryDependencies += "dev.zio" %% "zio"  % "2.1.15"
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
